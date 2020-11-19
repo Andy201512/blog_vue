@@ -20,6 +20,9 @@ export default {
 </script>
 
 <style>
+table, th, td {
+  border: 1px solid;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: #2c3e50;
