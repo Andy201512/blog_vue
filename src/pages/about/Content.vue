@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div id="alpha">
-      <h1>about</h1>
-    </div>
-    <div id="beta"></div>
+    <p>about page</p>
   </div>
 </template>
 
@@ -22,10 +19,7 @@ export default {
 </script>
 
 <style scoped>
-#alpha {
+div {
   text-align: center;
-}
-#beta {
-  padding: 0px 40%;
 }
 </style>
