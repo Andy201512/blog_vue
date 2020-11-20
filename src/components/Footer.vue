@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <footer>
     <span style="font-family:arial;">Copyright &copy; 2020 Jamin. All righta reserved.</span>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-div {
+footer {
   text-align: center;
 }
 </style>
