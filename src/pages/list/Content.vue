@@ -1,7 +1,7 @@
 <template>
-  <div id="alpha">
+  <main class="container">
     <li v-for="item in article_list.results" v-bind:key=item.id><a v-bind:href="'/detail/id=' + item.id">{{ item.title }}</a></li>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -26,7 +26,9 @@ export default {
 </script>
 
 <style scoped>
-#alpha {
+.container {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 </style>

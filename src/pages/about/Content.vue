@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <p>about page</p>
-  </div>
+  <main class="container">
+    <p>This is a django rest framework + vue blog website.</p>
+  </main>
 </template>
 
 <script>
@@ -19,7 +19,9 @@ export default {
 </script>
 
 <style scoped>
-div {
+.container {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 </style>
