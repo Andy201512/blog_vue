@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <span style="font-family:arial;">Copyright &copy; 2020 Jamin. All righta reserved.</span>
+    <span style="font-family:arial;">Copyright &copy; 2020 Jamin. All rights reserved.</span>
   </footer>
 </template>
 
@@ -13,5 +13,10 @@ export default {
 <style scoped>
 footer {
   text-align: center;
+  background-color: #eee;
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
 }
 </style>

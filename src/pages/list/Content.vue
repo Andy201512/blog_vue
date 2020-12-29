@@ -28,7 +28,6 @@ export default {
 <style scoped>
 .container {
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 50px; /*设置大于footer高度，防止被footer覆盖*/
 }
 </style>
